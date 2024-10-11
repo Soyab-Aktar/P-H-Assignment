@@ -142,3 +142,36 @@ nav {
     border-radius: 3px;
     border: 1px solid black;
 }
+
+/* ! THREE */
+
+.main-three {
+    max-width: 1140px;
+    /* background-color: yellow; */
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 151px;
+}
+
+.h1-three {
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.p-three {
+    text-align: center;
+    font-size: 16px;
+    padding: 0px 114px;
+    margin-bottom: 48px;
+}
+
+.iframe-three {
+
+    width: 1076px;
+    height: 550px;
+    border-radius: 16px;
+}
