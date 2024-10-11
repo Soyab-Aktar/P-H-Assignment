@@ -175,3 +175,55 @@ nav {
     height: 550px;
     border-radius: 16px;
 }
+
+/* ! FOUR */
+
+.main-four{
+    /* background-color: yellow; */
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+/* * UPPER */
+
+.up-four{
+    display: flex;
+    flex-direction: column;
+}
+.h1-four{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.p-four{
+    text-align: center;
+    padding: 0px 150px;
+    font-size: 16px;
+    margin-bottom: 48px;
+}
+.clang-four{
+    display: flex;
+    justify-content: space-between;
+}
+.lang1{
+    width: 364px;
+    height: 299px;
+}
+.h4-four{
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 8px;
+    margin-top: 24px;
+}
+.p2-four{
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+.a-four{
+    font-size: 16px;
+    font-weight: 800;
+    color: black;
+}
+
+/* * DOWN */
