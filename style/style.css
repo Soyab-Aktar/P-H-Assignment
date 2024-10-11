@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body-font{
+    font-family: "Azeret Mono", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+
+
+
+/*!  ONE */
+/* *NAVBAR */
+nav{
+    display: flex;
+    /* background-color: yellow; */
+    justify-content: space-between;
+    padding: 38px 150px;
+}
+.nav-h1{
+    font-size: 28px;
+    font-weight: 800;
+}
+.nav-b{
+
+    width: 245px;
+    height: 55px;
+    border-radius: 8px;
+    border: 1px solid black;
+    font-size: 20px;
+}
+/* *ONE-BODY */
