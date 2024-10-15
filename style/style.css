@@ -15,19 +15,19 @@
 
 /*!  ONE */
 /* *NAVBAR */
-nav {
+.navbar {
     display: flex;
     /* background-color: orangered; */
     justify-content: space-between;
     padding: 38px 150px;
 }
 
-.nav-h1 {
+.navbar-title {
     font-size: 28px;
     font-weight: 800;
 }
 
-.nav-b {
+.navbar-download-button {
 
     width: 245px;
     height: 55px;
@@ -37,7 +37,7 @@ nav {
 }
 
 /* *ONE-BODY */
-.main-one {
+.hero {
     background-image: url(../assets/heru-bg.png);
     height: 652px;
     display: flex;
@@ -46,13 +46,13 @@ nav {
     padding: 26px 221px 45px 221px;
 }
 
-.img-one {
+.profile-image {
     width: 240px;
     height: 240px;
     margin-bottom: 32px;
 }
 
-.h1-one {
+.hero-title {
     font-size: 48px;
     font-weight: 800;
     text-align: center;
@@ -60,14 +60,14 @@ nav {
     margin-bottom: 24px;
 }
 
-.p-one {
+.hero-description {
     font-size: 16px;
     padding: 0px 300px;
     text-align: center;
     margin-bottom: 32px;
 }
 
-.b-one {
+.hero-contact-button {
     width: 244px;
     height: 65px;
     padding: 21px 24px;
@@ -86,33 +86,33 @@ a {
 
 
 /* ! TWO */
-.main-two {
+.web-development-section {
     max-width: 1140px;
     margin: 75px auto;
     padding: 80px 97px;
 }
 
-.h1-two {
+.web-development-section-title {
     text-align: center;
     font-size: 32px;
     font-weight: 800;
     margin-bottom: 24px;
 }
 
-.p1-two {
+.web-development-section-description {
     text-align: center;
     font-size: 16px;
     padding: 0px 47px;
     margin-bottom: 48px;
 }
 
-.contain-two {
+.web-development-motive {
     display: flex;
     flex-direction: column;
     gap: 32px;
 }
 
-.c1-two {
+.motive-block-1 {
     display: flex;
     padding: 48px;
     justify-content: space-between;
@@ -120,7 +120,7 @@ a {
     border: 1px solid black;
 }
 
-.c2-two {
+.motive-block-2 {
     display: flex;
     padding: 48px;
     justify-content: space-between;
@@ -128,21 +128,21 @@ a {
     border: 1px solid black;
 }
 
-.contain-part-two {
+.motive-details {
     max-width: 477px;
 }
 
-.h2-two {
+.motive-details-title {
     font-size: 24px;
     padding-right: 60px;
 }
 
-.p-two {
+.motive-details-description {
     margin-top: 16px;
     margin-bottom: 32px;
 }
 
-.b-two {
+.motive-details-morebutton {
     width: 171px;
     height: 47px;
     border-radius: 3px;
@@ -151,7 +151,7 @@ a {
 
 /* ! THREE */
 
-.main-three {
+.inspir-section {
     max-width: 1140px;
     /* background-color: yellow; */
     margin: 0px auto;
@@ -161,21 +161,21 @@ a {
     margin-bottom: 151px;
 }
 
-.h1-three {
+.inspir-title {
     font-size: 32px;
     font-weight: 800;
     text-align: center;
     margin-bottom: 24px;
 }
 
-.p-three {
+.inspir-description {
     text-align: center;
     font-size: 16px;
     padding: 0px 114px;
     margin-bottom: 48px;
 }
 
-.iframe-three {
+.iframe-section {
 
     width: 1076px;
     height: 550px;
@@ -184,7 +184,7 @@ a {
 
 /* ! FOUR */
 
-.main-four {
+.skill-section {
     /* background-color: yellow; */
     max-width: 1140px;
     margin: 0px auto;
@@ -193,50 +193,50 @@ a {
 
 /* * UPPER */
 
-.up-four {
+.current-skill {
     display: flex;
     flex-direction: column;
     margin-bottom: 111px;
 }
 
-.h1-four {
+.current-skill-title {
     text-align: center;
     font-size: 32px;
     font-weight: 800;
     margin-bottom: 24px;
 }
 
-.p-four {
+.current-skill-description {
     text-align: center;
     padding: 0px 150px;
     font-size: 16px;
     margin-bottom: 48px;
 }
 
-.clang-four {
+.current-lang {
     display: flex;
     justify-content: space-between;
 }
 
-.lang1 {
+.h-c-j {
     width: 364px;
     height: 299px;
     padding: 40px;
 }
 
-.h4-four {
+.h-c-j-title {
     font-size: 24px;
     font-weight: 800;
     margin-bottom: 8px;
     margin-top: 24px;
 }
 
-.p2-four {
+.h-c-j-description {
     font-size: 16px;
     margin-bottom: 24px;
 }
 
-.a-four {
+.h-c-j-more {
     font-size: 16px;
     font-weight: 800;
     color: black;
@@ -244,32 +244,32 @@ a {
 
 /* * DOWN */
 
-.down-four {
+.target-skill {
     display: flex;
     flex-direction: column;
 }
 
-.h1-down {
+.target-skill-title {
     text-align: center;
     font-size: 32px;
     font-weight: 800;
     margin-bottom: 24px;
 }
 
-.p-down {
+.target-skill-description {
     text-align: center;
     padding: 0px 150px;
     font-size: 16px;
     margin-bottom: 48px;
 }
 
-.nlang-down-four {
+.target-lang {
     display: flex;
     flex-direction: column;
     gap: 24px;
 }
 
-.lang-down {
+.r-n-m {
     /* width: 364px; */
     height: 219px;
     padding: 40px;
@@ -279,51 +279,36 @@ a {
     align-items: center;
 }
 
-.h4-down {
+.r-n-m-title {
     font-size: 24px;
     font-weight: 800;
     margin-bottom: 8px;
 }
 
-.p2-four {
+.r-n-m-description {
     font-size: 16px;
     margin-bottom: 24px;
 }
 
-.a-four {
+.r-n-m-more {
     font-size: 16px;
     font-weight: 800;
     color: black;
 }
 
-.img-down1 {
+.r-n-m-image1 {
     width: 108px;
     height: 108px;
 }
 
-.img-down2 {
+.r-n-m-image2 {
     width: 144px;
     height: 88px;
 }
 
-.img-down3 {
-    width: 108px;
-    height: 108px;
-}
-
-.a-down {
-    font-size: 16px;
-    font-weight: 800;
-    color: black;
-}
-
-.p2-down {
-    margin-bottom: 24px;
-}
-
 /* ! FIVE */
 
-.main-five {
+#contact {
     max-width: 1140px;
     height: 313px;
     background-image: url(../assets/handshake.jpg), radial-gradient(circle, #494949 0%, #313131 100%);
@@ -342,28 +327,28 @@ a {
     gap: 24px;
 }
 
-.contain-five {
+.support {
     display: flex;
     flex-direction: column;
     gap: 16px;
     padding: 0px 200px;
 }
 
-.h1-five {
+.support-title {
     color: white;
     font-size: 32px;
     font-weight: 600;
     text-align: center;
 }
 
-.p-five {
+.support-description{
     color: white;
     font-size: 16px;
     text-align: center;
     font-weight: lighter;
 }
 
-.input-five {
+.support-input{
     display: flex;
     align-items: center;
     gap: 10px;
